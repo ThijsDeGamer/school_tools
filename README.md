@@ -3,17 +3,20 @@ School tools is a python tool that allows you to do advanced things on school pc
 
 Using the tool
 --------------------------------------
-1) Download the latest release version.
+1) Download portable python at (coming soon)
 2) Open the zip file.
 3) Copy the folder thats inside their onto a USB-Stick.
-4) Open IDLEX.exe (can take some time to open).
-5) Click on "File" and then click on "Open...".
-6) Navigate into the .user scripts folder.
-7) Open prompt.py.
-8) Press F5 or click 'Run' and then 'Run module'.
+4) Download the latest version of School Tools from release.
+5) Open the zip file.
+6) Copy the folder thats inside their onto a USB-Stick.
+7) Open IDLEX.exe (can take some time to open).
+8) Click on "File" and then click on "Open...".
+9) Navigate to the "V1.0 Windows" folder and open it.
+10) Open prompt.py.
+11) Press F5 or click 'Run' and then 'Run module'.
 --------------------------------------
 Please note that the panick function doesn't work when it's ran like this.
-The panick function only works when the script is ran from cmd.
+The panick function only works when the script is ran from an installed python version.
 
 # Installing plugins
 Here's a quick tutorial on how to download plugins.
