@@ -1,0 +1,3 @@
+Current commands: (1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rnum, rnumber, rint | Prints a random number.

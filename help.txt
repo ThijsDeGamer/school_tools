@@ -1,0 +1,14 @@
+
+Current commands: (6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd | Opens Windows Command Prompt without administrator access inside the python script.
+help, ? | Prints the contents of this file.
+shell, powershell | Opens Windows Powershell without administrator access inside the python script.
+reg, rege, regedit, re | Opens registery editor.
+note, notepad | Opens notepad.
+pan, panick, hide, p | Kills the python script.
+
+Plugin commands: (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+plugin list | Returns a list of all the current plugins you got installed.
+plugin run example | Launches a plugin. In example should be the plugin's name.
