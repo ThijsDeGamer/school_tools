@@ -1,7 +1,7 @@
 # school tools
 School tools is a python tool that allows you to do advanced things on school pc's.
 
-The way to use this on school computers that don't have python would be as follows:
+Using the tool
 --------------------------------------
 1) Download the latest release version.
 2) Open the zip file.
@@ -32,7 +32,7 @@ Here's a quick tutorial on how to download plugins.
 8) Close help.txt and start editing source.py (this can be done with notepad by renaming source.py to source.txt)
 9) I can't help you very far here so I'm just going put a hello world print command down here: (remember to never remove the help function!)
 
-import os
+```import os
 
 def help_script():
      # Get the path to the script's directory
@@ -59,4 +59,4 @@ while True:
     elif user_input.lower() in ["print"]:
         print_script()
     else:
-        print('Please input a valid command')
+        print('Please input a valid command')```
