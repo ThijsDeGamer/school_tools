@@ -1,5 +1,6 @@
 # school tools
-School tools is a python tool that allows you to do advanced things on school pc's.
+School tools is a python tool that allows you to do advanced things on school pc's. The target of this project is to make it easier for people to use python scripts and tools on school pc's.
+The project is for educational purposes only, nothing bad is intended with this project, so please don't hack your school with this.
 
 # Using the tool on PC
 1) Download the most recent version of windows.zip.
