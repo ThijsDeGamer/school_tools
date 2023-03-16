@@ -7,7 +7,6 @@ School tools is a python tool that allows you to do advanced things on school pc
 3) Done!
 
 # Using the tool on USB
---------------------------------------
 1) Download WPy64-3830.zip at https://github.com/ThijsDeGamer/school_tools/releases
 2) Open the zip file.
 3) Copy the folder thats inside their onto a USB-Stick.
