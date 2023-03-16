@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <tracking>
+        <general>
+            <fullScreenButton>button:fullScreen</fullScreenButton>
+        </general>
+        <achievements>
+            <unlocked5>unlocked:5Achievements</unlocked5>
+            <unlocked10>unlocked:10Achievements</unlocked10>
+            <unlocked15>unlocked:15Achievements</unlocked15>
+        </achievements>
+    </tracking>
+
+    <urls>
+        <hub>http://city.lego.com/en-US/Games/Forest Game Hub.aspx</hub>
+    </urls>
+</data>
