@@ -1,0 +1,70 @@
+<strings>
+	<language name="usEnglish">
+		<string id="playButton" size="36" font="Mainframe">Play</string>
+		<string id="helpButton" size="20" font="Mainframe">Help</string>
+		<string id="creditsButton" size="20" font="Mainframe">Credits</string>
+		<string id="continueButton" size="16" font="Mainframe">Continue</string>
+		<string id="backButton" size="16" font="Mainframe">Back</string>
+		<string id="continueButtonPause" size="24" font="Mainframe">Continue</string>
+		<string id="mapButtonPause" size="24" font="Mainframe">Map</string>
+		<string id="restartButtonPause" size="24" font="Mainframe">Restart</string>
+		<string id="mapButton" size="18" font="Mainframe">Map</string>
+		<string id="restartButton" size="18" font="Mainframe">Restart</string>
+		<string id="intro_roundup1" size="18" font="ArialBold">Capture all the criminals to win the level.</string>
+		<string id="intro_roundup2" size="18" font="ArialBold">Capture all the criminals. The dog can block criminals, and the lightning makes you faster.</string>
+		<string id="intro_roundup3" size="18" font="ArialBold">Capture all the criminals. The dog can block criminals, and the lightning makes you faster.</string>
+		<string id="intro_roundup4" size="18" font="ArialBold">Capture all the criminals, and don't forget to use your items!</string>
+		<string id="intro_chase1" size="18" font="ArialBold">Catch the speedy criminal. Use the speed boosts to run faster.</string>
+		<string id="intro_chase2" size="18" font="ArialBold">Catch the speedy criminal. The barricades will block your movement.</string>
+		<string id="intro_chase3" size="18" font="ArialBold">Catch the speedy criminal. Be sure to hit all the speed boosts.</string>
+		<string id="intro_chase4" size="18" font="ArialBold">Catch all of the criminals that appear.</string>
+		<string id="intro_escort1" size="18" font="ArialBold">The criminal in handcuffs is walking to the patrol car. Make sure he gets there without any of the other criminals freeing him.</string>
+		<string id="intro_escort2" size="18" font="ArialBold">Guard the criminal in handcuffs. Criminals may come from all sides.</string>
+		<string id="intro_escort3" size="18" font="ArialBold">Guard the criminal in handcuffs. Keep an eye out for magnets to stop the Brutes.</string>
+		<string id="intro_escort4" size="18" font="ArialBold">Guard the criminal in handcuffs. There will be lots of kinds of criminals this time.</string>
+		<string id="intro_protect1" size="18" font="ArialBold">Keep the criminals from running away with the gems.</string>
+		<string id="intro_protect2" size="18" font="ArialBold">Keep the criminals from running away with the gems.</string>
+		<string id="intro_protect3" size="18" font="ArialBold">Protect the gems. Use the dog to block the criminals.</string>
+		<string id="intro_protect4" size="18" font="ArialBold">Protect the gems. You'll need to act quickly this time!</string>
+		<string id="intro_detective1" size="18" font="ArialBold">Use the magnifying glasses to spot the hiding criminals.</string>
+		<string id="intro_detective2" size="18" font="ArialBold">Find the hidden criminals all around the level. </string>
+		<string id="intro_detective3" size="18" font="ArialBold">Find the hidden criminals scattered throughout the level</string>
+		<string id="intro_detective4" size="18" font="ArialBold">Find the hidden criminals. There are lots of them, so be careful where you look!</string>
+		<string id="tutorial1_text" size="18" font="ArialBold">Use the arrow keys to move and climb ladders. Hit the space bar to pick up, drop, and use items.</string>
+		<string id="tutorial2_text" size="18" font="ArialBold">Touch criminals to put them in jail.</string>
+		<string id="tutorial3_text" size="18" font="ArialBold">Speedy criminals have skateboards that make them quick. If you pick up a skateboard, you'll move faster too.</string>
+		<string id="tutorial4_text" size="18" font="ArialBold">Sneaky criminals hide behind objects in the background. Use the magnifying glass to find them.</string>
+		<string id="tutorial5_text" size="18" font="ArialBold">Jailbreaker criminals can free other criminals from jail. Place the dog in front of them to stop them from running.</string>
+		<string id="tutorial6_text" size="18" font="ArialBold">Brute criminals can't be captured as long as they have their clubs. Drop the magnet in front of them to take the club away and turn them into normal criminals.</string>
+		<string id="goButton" size="18" font="Mainframe">Go</string>
+		<string id="message_win_protect" size="18" font="ArialBold">Good job! You held off the criminals!</string>
+		<string id="message_win_protect_expert" size="18" font="ArialBold">Great job! Protected all of the civilians!</string>
+		<string id="message_lose_protect" size="18" font="ArialBold">Oh no! They stole all the valuables!</string>
+		<string id="message_win" size="18" font="ArialBold">Congratulations! You got 'em!</string>
+		<string id="message_win_expert" size="18" font="ArialBold">Congratulations! You got 'em in Expert time!</string>
+		<string id="message_lose" size="18" font="ArialBold">Oh no! You ran out of time!</string>
+		<string id="message_win_escort" size="18" font="ArialBold">Good job! You moved the criminal!</string>
+		<string id="message_win_escort_expert" size="18" font="ArialBold">Good job! The criminal was never freed!</string>
+		<string id="credits" size="13" font="ArialBold">Programming: Clayton Grey\nArt Direction: Mathew Moss\nAnimation: Joe Wierenga\nGame Art: Sam Strick\nGame Design: Nick Fortugno, Ben Hayes\nAudio: Gina Zdanowicz\nProducer: Xiao Hui Chin, Stefan Stokkebæk\nEducational Consultant: Karen Sideman</string>
+		<string id="expertGoal_roundup_academy" size="12" font="ArialBold">Catch all the criminals in 0:30</string>
+		<string id="expertGoal_chase_academy" size="12" font="ArialBold">Catch all the criminals in 0:20</string>
+		<string id="expertGoal_detective_academy" size="12" font="ArialBold">Find and catch all the criminals in 0:30</string>
+		<string id="expertGoal_protect_academy" size="12" font="ArialBold">Don't let the criminals get any Jewels</string>
+		<string id="expertGoal_escort_academy" size="12" font="ArialBold">Don't let the criminals free the prisoner</string>
+		<string id="expertGoal_roundup_rookie" size="12" font="ArialBold">Catch all the criminals in 0:40</string>
+		<string id="expertGoal_chase_rookie" size="12" font="ArialBold">Catch all the criminals in 0:20</string>
+		<string id="expertGoal_detective_rookie" size="12" font="ArialBold">Find and catch all the criminals in 1:20</string>
+		<string id="expertGoal_protect_rookie" size="12" font="ArialBold">Don't let the criminals get any Jewels</string>
+		<string id="expertGoal_escort_rookie" size="12" font="ArialBold">Don't let the criminals free the prisoner</string>
+		<string id="expertGoal_roundup_officer" size="12" font="ArialBold">Catch all the criminals in 0:40</string>
+		<string id="expertGoal_chase_officer" size="12" font="ArialBold">Catch all the criminals in 0:20</string>
+		<string id="expertGoal_detective_officer" size="12" font="ArialBold">Find and catch all the criminals in 1:20</string>
+		<string id="expertGoal_protect_officer" size="12" font="ArialBold">Don't let the criminals get any Jewels</string>
+		<string id="expertGoal_escort_officer" size="12" font="ArialBold">Don't let the criminals free the prisoner</string>
+		<string id="expertGoal_roundup_sargent" size="12" font="ArialBold">Catch all the criminals in 0:50</string>
+		<string id="expertGoal_chase_sargent" size="12" font="ArialBold">Catch all the criminals in 0:20</string>
+		<string id="expertGoal_detective_sargent" size="12" font="ArialBold">Find and catch all the criminals in 1:20</string>
+		<string id="expertGoal_protect_sargent" size="12" font="ArialBold">Don't let the criminals get any Jewels</string>
+		<string id="expertGoal_escort_sargent" size="12" font="ArialBold">Don't let the criminals free the prisoner</string>
+	</language>
+</strings>

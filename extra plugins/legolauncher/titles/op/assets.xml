@@ -1,0 +1,168 @@
+<assets>
+	<!-- Title -->
+	<asset id="titlecomp">images/title/titlecomp.png</asset>
+	<asset id="playbutton_norm">images/title/playbutton_norm.png</asset>
+	<asset id="playbutton_over">images/title/playbutton_over.png</asset>
+	<asset id="playbutton_down">images/title/playbutton_down.png</asset>
+	<asset id="titlebutton_norm">images/title/titlebutton_norm.png</asset>
+	<asset id="titlebutton_over">images/title/titlebutton_over.png</asset>
+	<asset id="titlebutton_down">images/title/titlebutton_down.png</asset>
+	<asset id="title_minifig">images/title/title_minifig.png</asset>
+	<asset id="badgeoverlap">images/title/badgeoverlap.png</asset>
+	<!-- Credits -->
+	<asset id="playmatics">images/credits/playmatics.png</asset>
+	<!-- Help -->
+	<asset id="help1">images/help/help1.png</asset>
+	<asset id="help2">images/help/help2.png</asset>
+	<asset id="help3">images/help/help3.png</asset>
+	<asset id="help4">images/help/help4.png</asset>
+	<asset id="help5">images/help/help5.png</asset>
+	<asset id="help6">images/help/help6.png</asset>
+	<!-- Map -->
+	<asset id="map">images/map/map.png</asset>
+	<asset id="police_station_norm">images/map/police_station_norm.png</asset>
+	<asset id="police_station_over">images/map/police_station_over.png</asset>
+	<asset id="fire_station_norm">images/map/fire_station_norm.png</asset>
+	<asset id="fire_station_over">images/map/fire_station_over.png</asset>
+	<asset id="construction_norm">images/map/construction_norm.png</asset>
+	<asset id="construction_over">images/map/construction_over.png</asset>
+	<asset id="residence_norm">images/map/residence_norm.png</asset>
+	<asset id="residence_over">images/map/residence_over.png</asset>
+	<asset id="cinema_norm">images/map/cinema_norm.png</asset>
+	<asset id="cinema_over">images/map/cinema_over.png</asset>
+	<asset id="downtown_norm">images/map/downtown_norm.png</asset>
+	<asset id="downtown_over">images/map/downtown_over.png</asset>
+	<asset id="lock">images/map/lock.png</asset>
+	<asset id="helicopter">images/map/helicopter.png</asset>
+	<asset id="lights">images/map/lights.png</asset>
+	<asset id="siren">images/map/siren.png</asset>
+	<asset id="logo_small">images/map/logo_small.png</asset>
+	<!-- HUD -->
+	<asset id="frame">images/hud/frame.png</asset>
+	<asset id="frametab_menu">images/hud/frametab_menu.png</asset>
+	<asset id="frametab_play">images/hud/frametab_play.png</asset>
+	<asset id="mute_norm">images/hud/mute_norm.png</asset>
+	<asset id="mute_over">images/hud/mute_down.png</asset>
+	<asset id="unmute_norm">images/hud/unmute_norm.png</asset>
+	<asset id="unmute_over">images/hud/unmute_down.png</asset>
+	<asset id="pause_norm">images/hud/pause_norm.png</asset>
+	<asset id="pause_over">images/hud/pause_down.png</asset>
+	<asset id="unpause_norm">images/hud/unpause_norm.png</asset>
+	<asset id="unpause_over">images/hud/unpause_down.png</asset>	
+	<asset id="hud">images/hud/hud.png</asset>
+	<!-- Buttons -->
+	<asset id="button_norm">images/buttons/button_norm.png</asset>
+	<asset id="button_over">images/buttons/button_over.png</asset>
+	<asset id="button_down">images/buttons/button_down.png</asset>
+	<!-- Level -->
+	<asset id="background">images/level/background.png</asset>
+	<asset id="building">images/level/building.png</asset>
+	<asset id="ladder">images/level/ladder.png</asset>
+	<asset id="platform">images/level/platform.png</asset>
+	<!-- Popups -->
+	<asset id="popup_intro">images/popups/popup_intro.png</asset>
+	<asset id="popup_outro_bad">images/popups/popup_outro_bad.png</asset>
+	<asset id="popup_outro_good">images/popups/popup_outro_good.png</asset>
+	<asset id="pause">images/popups/pause.png</asset>
+	<asset id="pause_logo">images/popups/pause_logo.png</asset>
+	<asset id="police_station_header">images/popups/police_station.png</asset>
+	<asset id="fire_station_header">images/popups/fire_station.png</asset>
+	<asset id="cinema_header">images/popups/cinema.png</asset>
+	<asset id="construction_header">images/popups/construction.png</asset>
+	<asset id="residence_header">images/popups/residence.png</asset>
+	<asset id="downtown_header">images/popups/downtown.png</asset>
+	<asset id="roundup_norm">images/popups/roundup_norm.png</asset>
+	<asset id="roundup_over">images/popups/roundup_over.png</asset>
+	<asset id="roundup_down">images/popups/roundup_down.png</asset>
+	<asset id="chase_norm">images/popups/chase_norm.png</asset>
+	<asset id="chase_over">images/popups/chase_over.png</asset>
+	<asset id="chase_down">images/popups/chase_down.png</asset>
+	<asset id="detective_norm">images/popups/detective_norm.png</asset>
+	<asset id="detective_over">images/popups/detective_over.png</asset>
+	<asset id="detective_down">images/popups/detective_down.png</asset>
+	<asset id="protect_norm">images/popups/protect_norm.png</asset>
+	<asset id="protect_over">images/popups/protect_over.png</asset>
+	<asset id="protect_down">images/popups/protect_down.png</asset>
+	<asset id="escort_norm">images/popups/escort_norm.png</asset>
+	<asset id="escort_over">images/popups/escort_over.png</asset>
+	<asset id="escort_down">images/popups/escort_down.png</asset>
+	<asset id="clear_icon">images/popups/clear_icon.png</asset>
+	<asset id="expert_icon">images/popups/expert_icon.png</asset>
+	<!-- Popup Tableaus -->
+	<asset id="intro_popup_chase1">images/tableaus/chase1.png</asset>
+	<asset id="intro_popup_chase2">images/tableaus/chase2.png</asset>
+	<asset id="intro_popup_chase3">images/tableaus/chase3.png</asset>
+	<asset id="intro_popup_chase4">images/tableaus/chase4.png</asset>
+	<asset id="intro_popup_detective1">images/tableaus/detective1.png</asset>
+	<asset id="intro_popup_detective2">images/tableaus/detective2.png</asset>
+	<asset id="intro_popup_detective3">images/tableaus/detective3.png</asset>
+	<asset id="intro_popup_detective4">images/tableaus/detective4.png</asset>
+	<asset id="intro_popup_escort1">images/tableaus/escort1.png</asset>
+	<asset id="intro_popup_escort2">images/tableaus/escort2.png</asset>
+	<asset id="intro_popup_escort3">images/tableaus/escort3.png</asset>
+	<asset id="intro_popup_escort4">images/tableaus/escort4.png</asset>
+	<asset id="intro_popup_protect1">images/tableaus/protect1.png</asset>
+	<asset id="intro_popup_protect2">images/tableaus/protect2.png</asset>
+	<asset id="intro_popup_protect3">images/tableaus/protect3.png</asset>
+	<asset id="intro_popup_protect4">images/tableaus/protect4.png</asset>
+	<asset id="intro_popup_roundup1">images/tableaus/roundup1.png</asset>
+	<asset id="intro_popup_roundup2">images/tableaus/roundup2.png</asset>
+	<asset id="intro_popup_roundup3">images/tableaus/roundup3.png</asset>
+	<asset id="intro_popup_roundup4">images/tableaus/roundup4.png</asset>
+	<!-- Player -->
+	<asset id="player">images/objects/player.png</asset>
+	<!-- Criminal -->
+	<asset id="criminal_normal">images/objects/criminal_normal.png</asset>
+	<asset id="criminal_speedy">images/objects/criminal_speedy.png</asset>
+	<asset id="criminal_sneaky1">images/objects/criminal_sneaky.png</asset>
+	<asset id="criminal_sneaky2">images/objects/criminal_sneaky.png</asset>
+	<asset id="criminal_sneaky3">images/objects/criminal_sneaky.png</asset>
+	<asset id="criminal_slippery">images/objects/criminal_slippery.png</asset>
+	<asset id="criminal_brute">images/objects/criminal_brute.png</asset>
+	<!-- Citizen -->
+	<asset id="citizen_normal">images/objects/citizen_normal.png</asset>
+    <asset id="citizen_criminal">images/objects/citizen_criminal.png</asset>
+    <asset id="citizen_guard">images/objects/citizen_guard.png</asset>
+	<!-- Items -->
+	<asset id="item_barricade">images/objects/item_barricade.png</asset>
+	<asset id="item_patrolDog">images/objects/item_patrolDog.png</asset>
+	<asset id="item_speedBoost">images/objects/item_speedBoost.png</asset>
+	<asset id="item_speedBoost_remover">images/objects/item_speedBoost_remover.png</asset>
+	<asset id="item_bananaPeel">images/objects/item_bananaPeel.png</asset>
+	<asset id="item_magnifyingGlass">images/objects/item_magnifyingGlass.png</asset>
+	<asset id="item_magnet">images/objects/item_magnet.png</asset>
+	<asset id="item_magnet_remover">images/objects/item_magnet_remover.png</asset>
+    <asset id="item_valuable">images/objects/item_valuable.png</asset>
+	<!-- Decorations -->
+	<asset id="decoration_bbq_stand">images/objects/decoration_bbq_stand.png</asset>
+	<asset id="decoration_bench">images/objects/decoration_bench.png</asset>
+	<asset id="decoration_blue_flower_1">images/objects/decoration_blue_flower_1.png</asset>
+	<asset id="decoration_blue_flower_2">images/objects/decoration_blue_flower_2.png</asset>
+	<asset id="decoration_bus">images/objects/decoration_bus.png</asset>
+	<asset id="decoration_bus_stop">images/objects/decoration_bus_stop.png</asset>
+	<asset id="decoration_bush">images/objects/decoration_bush.png</asset>
+	<asset id="decoration_cone">images/objects/decoration_cone.png</asset>
+	<asset id="decoration_fakeSneakySpot1">images/objects/decoration_fakeSneakySpot1.png</asset>
+	<asset id="decoration_fakeSneakySpot2">images/objects/decoration_fakeSneakySpot2.png</asset>
+	<asset id="decoration_fakeSneakySpot3">images/objects/decoration_fakeSneakySpot3.png</asset>
+	<asset id="decoration_fire_hydrant">images/objects/decoration_fire_hydrant.png</asset>
+	<asset id="decoration_garbage">images/objects/decoration_garbage.png</asset>
+	<asset id="decoration_grill">images/objects/decoration_grill.png</asset>
+	<asset id="decoration_logo_fire_department">images/objects/decoration_logo_fire_department.png</asset>
+	<asset id="decoration_logo_octan">images/objects/decoration_logo_octan.png</asset>
+	<asset id="decoration_logo_pizza">images/objects/decoration_logo_pizza.png</asset>
+	<asset id="decoration_logo_shipping">images/objects/decoration_logo_shipping.png</asset>
+	<asset id="decoration_mailbox">images/objects/decoration_mailbox.png</asset>
+	<asset id="decoration_red_flower_1">images/objects/decoration_red_flower_1.png</asset>
+	<asset id="decoration_red_flower_2">images/objects/decoration_red_flower_2.png</asset>
+	<asset id="decoration_sneakySpot1">images/objects/decoration_sneakySpot1.png</asset>
+	<asset id="decoration_sneakySpot2">images/objects/decoration_sneakySpot2.png</asset>
+	<asset id="decoration_sneakySpot3">images/objects/decoration_sneakySpot3.png</asset>
+	<asset id="decoration_street_light">images/objects/decoration_street_light.png</asset>
+	<asset id="decoration_street_planter">images/objects/decoration_street_planter.png</asset>
+	<asset id="decoration_white_flower_1">images/objects/decoration_white_flower_1.png</asset>
+	<asset id="decoration_white_flower_2">images/objects/decoration_white_flower_2.png</asset>
+	<asset id="decoration_yellow_flower_1">images/objects/decoration_yellow_flower_1.png</asset>
+	<asset id="decoration_yellow_flower_2">images/objects/decoration_yellow_flower_2.png</asset>
+	<asset id="decoration_patrol_car">images/objects/decoration_patrol_car.png</asset>
+</assets>

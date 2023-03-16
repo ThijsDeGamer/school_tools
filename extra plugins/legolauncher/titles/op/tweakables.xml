@@ -1,0 +1,112 @@
+<tweakables>
+	<category name="global" asset="false" >
+		<property name="gravity">300</property>
+	</category>
+	<category name="gameModes" asset="false">
+		<mode name="roundup">
+				<difficulty name="academy" expertTime="30" timeLimit="120"/>
+				<difficulty name="rookie" expertTime="40" timeLimit="100"/>
+				<difficulty name="officer" expertTime="40" timeLimit="90"/>
+				<difficulty name="sargent" expertTime="50" timeLimit="100"/>
+				<difficulty name="comissioner" expertTime="120" timeLimit="240"/>
+			</mode>
+			<mode name="chase">
+				<difficulty name="academy" expertTime="20" timeLimit="40"/>
+				<difficulty name="rookie" expertTime="30" timeLimit="60"/>
+				<difficulty name="officer" expertTime="30" timeLimit="60"/>
+				<difficulty name="sargent" expertTime="30" timeLimit="70"/>
+				<difficulty name="comissioner" expertTime="120" timeLimit="240"/>
+			</mode>
+			<mode name="escort">
+				<difficulty name="academy" expertTime="25" timeLimit="60"/>
+				<difficulty name="rookie" expertTime="35" timeLimit="70"/>
+				<difficulty name="officer" expertTime="45" timeLimit="70"/>
+				<difficulty name="sargent" expertTime="45" timeLimit="70"/>
+				<difficulty name="comissioner" expertTime="120" timeLimit="240"/>
+			</mode>
+			<mode name="protect">
+				<difficulty name="academy" expertTime="15" timeLimit="30"/>
+				<difficulty name="rookie" expertTime="30" timeLimit="45"/>
+				<difficulty name="officer" expertTime="30" timeLimit="45"/>
+				<difficulty name="sargent" expertTime="30" timeLimit="45"/>
+				<difficulty name="comissioner" expertTime="30" timeLimit="45"/>
+			</mode>
+			<mode name="save">
+				<difficulty name="academy" expertTime="20" timeLimit="40"/>
+				<difficulty name="rookie" expertTime="40" timeLimit="70"/>
+				<difficulty name="officer" expertTime="50" timeLimit="70"/>
+				<difficulty name="sargent" expertTime="50" timeLimit="90"/>
+				<difficulty name="comissioner" expertTime="120" timeLimit="240"/>
+			</mode>
+            <mode name="detective">
+				<difficulty name="academy" expertTime="30" timeLimit="60"/>
+				<difficulty name="rookie" expertTime="120" timeLimit="240"/>
+				<difficulty name="officer" expertTime="120" timeLimit="240"/>
+				<difficulty name="sargent" expertTime="120" timeLimit="240"/>
+				<difficulty name="comissioner" expertTime="120" timeLimit="240"/>
+			</mode>
+	</category>
+	<category name="player" asset="true">
+		<player stunDuration="1500" speed="120" drag="4" jump="0.40" ladderSpeed="75" boostDuration="5000" boostSpeed="400" boostLadderSpeed="125"  />
+	</category>
+	<category name="criminal" asset="true">
+		<criminal type="normal" speed="100" drag="6" jump="0.40" ladderSpeed="50" stunDuration="6000" arrestDuration="6000" />
+		<criminal type="speedy" speed="175" drag="4" jump="0.40" ladderSpeed="50" stunDuration="4000" arrestDuration="6000" />
+		<criminal type="sneaky1" speed="75" drag="4" jump="0.40" ladderSpeed="50" stunDuration="4000" arrestDuration="6000" distance="128" />
+		<criminal type="sneaky2" speed="75" drag="4" jump="0.40" ladderSpeed="50" stunDuration="4000" arrestDuration="6000" distance="128" />
+		<criminal type="sneaky3" speed="75" drag="4" jump="0.40" ladderSpeed="50" stunDuration="4000" arrestDuration="6000" distance="128" />
+		<criminal type="slippery" speed="100" drag="4" jump="0.40" ladderSpeed="50" stunDuration="2000" arrestDuration="6000" />
+		<criminal type="brute" speed="100" drag="4" jump="0.40" ladderSpeed="50" stunDuration="4000" arrestDuration="6000" />
+	</category>
+	<category name="citizen" asset="true">
+		<citizen type="normal" speed="120" drag="6" jump="0.40" ladderSpeed="50" stunDuration="6000" />
+        <citizen type="criminal" speed="50" drag="6" jump="0.40" ladderSpeed="50" stunDuration="6000" />
+        <citizen type="guard" speed="150" drag="6" jump="0.40" ladderSpeed="50" stunDuration="6000" />
+	</category>
+	<category name="item" asset="true">
+		<item type="barricade" />
+		<item type="patrolDog" />
+		<item type="speedBoost" />
+		<item type="bananaPeel" stunDuration="" />
+		<item type="magnifyingGlass" revealDelay="" detectionDistance="" />
+		<item type="sneakySpot1" />
+		<item type="sneakySpot2" />
+		<item type="sneakySpot3" />
+		<item type="magnet" range="" />
+        <item type="valuable" />
+	</category>
+	<category name="decoration" asset="true">
+		<decoration type="fakeSneakySpot1" />
+		<decoration type="fakeSneakySpot2" />
+		<decoration type="fakeSneakySpot3" />
+		<decoration type="bbq_stand" />
+		<decoration type="bench" />
+		<decoration type="blue_flower_1" />
+		<decoration type="blue_flower_2" />
+		<decoration type="bus" />
+		<decoration type="bus_stop" />
+		<decoration type="bush" />
+		<decoration type="cone" />
+		<decoration type="fence" />
+		<decoration type="fire_hydrant" />
+		<decoration type="flower_pot_blue" />
+		<decoration type="flower_pot_red" />
+		<decoration type="flower_pot_yellow" />
+		<decoration type="garbage" />
+		<decoration type="grill" />
+		<decoration type="logo_airline" />
+		<decoration type="logo_fire_department" />	
+		<decoration type="logo_octan" />
+		<decoration type="logo_pizza" />
+		<decoration type="logo_shipping" />
+		<decoration type="mailbox" />
+		<decoration type="red_flower_1" />
+		<decoration type="red_flower_2" />
+		<decoration type="street_light" />
+		<decoration type="street_planter" />
+		<decoration type="white_flower_1" />
+		<decoration type="white_flower_2" />
+		<decoration type="yellow_flower_1" />
+		<decoration type="yellow_flower_2" />
+	</category>
+</tweakables>
