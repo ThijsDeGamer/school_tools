@@ -3,7 +3,7 @@ School tools is a python tool that allows you to do advanced things on school pc
 
 Using the tool
 --------------------------------------
-1) Download portable python at (coming soon)
+1) Download winpython at https://github.com/winpython/winpython/releases
 2) Open the zip file.
 3) Copy the folder thats inside their onto a USB-Stick.
 4) Download the latest version of School Tools from release.
