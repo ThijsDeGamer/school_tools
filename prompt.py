@@ -6,69 +6,58 @@ import subprocess
 curput = ""
 
 def help_script():
-    file_name = "help.txt"
-
     try:
-        with open(file_name, "r") as file:
-            contents = file.read()
-            print(contents)
+        with open("help.txt", "r") as file:
+            print(file.read())
     except FileNotFoundError:
-        print(f"{file_name} not found.")
+        print(f"help.txt not found.")
 
 def panick_script():
     sys.exit()
 
 def cmd_script():
-    file_path = r"C:\Windows\system32\cmd"
-    subprocess.Popen(["start", file_path], shell=True)
+    subprocess.Popen(["start", r"C:\Windows\system32\cmd"], shell=True)
 
 def shell_script():
-    file_path = r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell"
-    subprocess.Popen(["start", file_path], shell=True)
+    subprocess.Popen(["start", r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell"], shell=True)
 
 def reg_script():
-    file_path = r"C:\Windows\regedit"
-    subprocess.Popen(["start", file_path], shell=True)
+    subprocess.Popen(["start", r"C:\Windows\regedit"], shell=True)
 
 def note_script():
-    file_path = r"C:\Windows\notepad"
-    subprocess.Popen(["start", file_path], shell=True)
+    subprocess.Popen(["start", r"C:\Windows\notepad"], shell=True)
 
 def plugin_list_script():
-    # Get the path to the script's directory
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Define the path to the "plugins" folder
+    plugins_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "plugins")
 
-    # Construct the path to the manifest.txt file
-    manifest_path = os.path.join(script_dir, "plugins", "*", "manifest.txt")
+    # Get a list of all directories in the "plugins" folder
+    directories = [f for f in os.listdir(plugins_path) if os.path.isdir(os.path.join(plugins_path, f))]
 
-    # Find the path to the manifest.txt file
-    manifest_files = glob.glob(manifest_path)
-    if len(manifest_files) == 0:
-        print("Error: manifest.txt not found.")
-        return
+    for directory in directories:
+        manifest_path = os.path.join(plugins_path, directory, "manifest.txt")
 
-    manifest_file = manifest_files[0]
+        # Find the path to the manifest.txt file
+        if not os.path.isfile(manifest_path):
+            print(f"Error: manifest.txt not found in {directory}")
+            continue
+        
+        nameplugin = directory
 
-    # Read the value of "syntax" from the manifest.txt file
-    with open(manifest_file, "r") as f:
-        for line in f:
-            line = line.strip()
-            if not line.startswith("name="):
-                continue
-            nameplugin = line[len("name="):].split("#")[0]
-            descriptionplugin = None
+        # Read the value of "description" from the manifest.txt file
+        with open(manifest_path, "r") as f:
             for line in f:
                 line = line.strip()
-                if line.startswith("description="):
-                    descriptionplugin = line[len("description="):].split("#")[0]
-                    break
-            if descriptionplugin is not None:
-                print(f"{nameplugin}/ {descriptionplugin}")
+                if not line.startswith("description="):
+                    continue
+                descriptionplugin = line[len("description="):].split("#")[0]
+                if descriptionplugin is not None:
+                    print(f"{nameplugin} / {descriptionplugin}")
+                else:
+                    print(f"{nameplugin} / <no description>")
+                break
             else:
-                print(f"{nameplugin}/ <no description>")
-            break
-        else:
-            print("Error: name not found in manifest.txt.")
+                print(f"Error: description not found in {manifest_path}")
 
 def plugin_run_script():
     # Get the path to the script's directory
@@ -80,16 +69,11 @@ def plugin_run_script():
     # Check if the source file exists
     if not os.path.exists(source_path):
         print("Error: source.py not found.")
-        exit()
-
-    # Open the source file
-    os.startfile(source_path)  # For Windows
-    # Alternatively, use the following line for macOS:
-    # os.system("open " + source_path)
-    # Use the following line for Linux:
-    # os.system("xdg-open " + source_path)
-    
-
+    else:
+        # Open the source file
+        os.startfile(source_path)  # For Windows
+        # os.system("open " + source_path) <- macOS
+        # os.system("xdg-open " + source_path) <- Linux
 
 while True:
     user_input = input("Enter command: ")
@@ -113,4 +97,3 @@ while True:
         plugin_list_script()
     else:
         print('Please input a valid command')
-
