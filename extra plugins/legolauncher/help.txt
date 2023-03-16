@@ -1,0 +1,8 @@
+Current commands: (1)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+launch example, l example | Launch a title. Current titles: op, ff
+
+Titles: (2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+op | On Patrol
+ff | Forest Fire

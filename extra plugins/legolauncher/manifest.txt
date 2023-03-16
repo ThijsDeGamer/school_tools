@@ -1,0 +1,1 @@
+description=Launcher that allows you to play old lego flash games. # Description of the plugin
